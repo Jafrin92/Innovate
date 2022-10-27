@@ -252,7 +252,7 @@ h6 {
 
 .banner-shape {
   position: absolute;
-  top: 250px;
+  top: 290px;
   right: 0;
   width: 463px;
   height: 630px;
@@ -261,7 +261,7 @@ h6 {
 
 .banner-cloud {
   position: absolute;
-  bottom: 0;
+  bottom: -50px;
   left: 0;
   width: 100%;
   z-index: -1;
@@ -271,7 +271,7 @@ h6 {
 .brand {
   position: absolute;
   left: 0;
-  bottom: 70px;
+  bottom: 40px;
   width: 100%;
   z-index: 1;
 }
