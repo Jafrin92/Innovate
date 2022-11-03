@@ -124,8 +124,8 @@ h6 {
   padding-top: 30px;
 }
 
-.custom_nav i {
-  color: var(--primary-color);
+.navbar i {
+  color: var(--white-color);
   font-size: 20px;
 }
 
@@ -206,11 +206,11 @@ h6 {
 
 .banner-content p {
   color: var(--white-color);
-  margin: 20px 50px 48px 50px;
+  margin: 20px 80px 48px 80px;
 }
 
 .banner-input {
-  width: 638px;
+  max-width: 638px;
   margin: 0 auto;
   position: relative;
 }
@@ -280,6 +280,7 @@ h6 {
 
 /* Service area css start  */
 #service {
+  padding-top: 50px;
   padding-bottom: 100px;
 }
 
@@ -350,6 +351,11 @@ h6 {
   margin-bottom: 60px;
 }
 
+.process-area {
+  position: relative;
+  z-index: 1;
+}
+
 .process-items {
   padding: 38px 15px;
   margin-bottom: 100px;
@@ -383,7 +389,7 @@ h6 {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 36px 21.5px 0 21.5px;
+  border-width: 60px 34px 0 34px;
   border-color: transparent transparent transparent transparent;
   visibility: hidden;
   opacity: 0;
@@ -392,6 +398,7 @@ h6 {
   -moz-transition: all linear 0.3s;
   -ms-transition: all linear 0.3s;
   -o-transition: all linear 0.3s;
+  z-index: -1;
 }
 
 .process-items h6,
@@ -477,7 +484,7 @@ h6 {
 }
 
 .process-content p {
-  padding: 24px 150px 80px 0;
+  padding: 24px 120px 80px 0;
 }
 
 .process-btn a {
@@ -500,9 +507,10 @@ h6 {
   -moz-transition: all linear 0.4s;
   -ms-transition: all linear 0.4s;
   -o-transition: all linear 0.4s;
+  cursor: pointer;
 }
 
-.process-btn:hover a {
+.process-btn a:hover {
   background: transparent;
   color: var(--primary-color);
 }
@@ -697,15 +705,6 @@ h6 {
   background-color: #323232;
   color: var(--white-color);
   text-transform: capitalize;
-  transition: all linear 0.4s;
-  -webkit-transition: all linear 0.4s;
-  -moz-transition: all linear 0.4s;
-  -ms-transition: all linear 0.4s;
-  -o-transition: all linear 0.4s;
-}
-
-.pricing-inner-btn:hover button {
-  background-color: var(--button-color);
 }
 
 /* paricing three */
@@ -762,13 +761,12 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 122px 0;
-  width: 1400px;
+  max-width: 1520px;
   border-radius: 70px;
   -webkit-border-radius: 70px;
   -moz-border-radius: 70px;
   -ms-border-radius: 70px;
   -o-border-radius: 70px;
-  position: relative;
 }
 
 .analytics-content p,
@@ -777,13 +775,7 @@ h6 {
 }
 
 .analytics-content p {
-  padding: 10px 50px 28px 50px;
-}
-
-.analytics-shape {
-  position: absolute;
-  top: 76px;
-  left: 0;
+  padding: 10px 120px 28px 120px;
 }
 /* Analytics area css end  */
 
@@ -815,12 +807,14 @@ h6 {
 
 .footer-support ul li,
 .products ul li,
+.support ul li,
 .features-nav ul li {
   margin-bottom: 30px;
 }
 
 .footer-support ul li a,
 .products ul li a,
+.support ul li a,
 .features-nav ul li a {
   font-size: 20px;
   color: var(--primary-color);
@@ -850,7 +844,7 @@ h6 {
 }
 
 /* footer 4th row */
-.support-head {
+.support-head h3 {
   padding-bottom: 48px;
   font-size: 24px;
 }
@@ -867,7 +861,7 @@ h6 {
 
 .bottom-footer-list ul {
   display: flex;
-  float: right;
+  justify-content: flex-end;
 }
 
 .bottom-footer-list ul li {
