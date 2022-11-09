@@ -133,8 +133,7 @@ h6 {
   font-size: var(--common-font-size);
   font-weight: var(--font-semibold);
   font-family: var(--font-pops);
-  padding-right: 24px;
-  padding-left: 24px;
+  padding: 0 24px;
   color: var(--white-color);
 }
 
@@ -254,8 +253,7 @@ h6 {
   position: absolute;
   top: 290px;
   right: 0;
-  width: 463px;
-  height: 630px;
+  width: 430px;
   z-index: -1;
 }
 
@@ -484,7 +482,7 @@ h6 {
 }
 
 .process-content p {
-  padding: 24px 120px 80px 0;
+  padding: 24px 145px 80px 0;
 }
 
 .process-btn a {
