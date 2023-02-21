@@ -114,6 +114,33 @@ h6 {
 
 /* common css end*/
 
+/* preloader css start  */
+.loader {
+  background-color: #1b1941;
+  height: 100%;
+  width: 100%;
+  z-index: 10000;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+/* 2nd system */
+
+.disppear {
+  animation: vanish 1s forwards;
+  -webkit-animation: vanish 1s forwards;
+}
+
+@keyframes vanish {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+/* preloader css end */
+
 /* Navbar area css start  */
 .navbar {
   position: absolute;
